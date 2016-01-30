@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--item name property isn't a place for color name (its already done that in @color resource).
+        That's why it's not compiling: it indicates that colorUdacity doesn't exist in Android Platform.-->
         <!--item name="colorUdacity">@color/colorUdacity</item-->
     </style>
 
